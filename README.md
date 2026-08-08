@@ -1,3 +1,27 @@
+# Open LLM Engineering
+
+An independently maintained open-source project for studying, experimenting with,
+training, evaluating, and optimizing transformer-based language models.
+
+## Project Origin
+
+This repository is a maintained derivative of Sebastian Raschka's
+[LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) project.
+
+The upstream project provides the original educational foundation.
+This repository preserves the applicable upstream license and attribution while
+extending the project with additional testing, documentation, benchmarks,
+security practices, and modern LLM engineering experiments.
+
+## Project Goals
+
+- Explore transformer and GPT-style architectures from first principles
+- Develop reproducible training and inference workflows
+- Add automated testing and continuous integration
+- Benchmark modern LLM inference techniques
+- Explore KV caching, LoRA, quantization, and evaluation workflows
+- Improve security around dependencies, model loading, and data pipelines
+- Maintain an open workflow for issues, pull requests, and releases
 # Build a Large Language Model (From Scratch)
 
 This repository contains the code for developing, pretraining, and finetuning a GPT-like LLM and is the official code repository for the book [Build a Large Language Model (From Scratch)](https://amzn.to/4fqvn0D).
@@ -259,3 +283,12 @@ BibTeX entry:
   github       = {https://github.com/rasbt/LLMs-from-scratch}
 }
 ```
+## Acknowledgements
+
+This project builds on the excellent open-source work of Sebastian Raschka and
+the contributors to LLMs-from-scratch. Upstream authorship, licensing, and
+attribution are preserved.
+
+## Maintainer
+
+Maintained by [MrDepzoai](https://github.com/MrDepzoai).
